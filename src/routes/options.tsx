@@ -35,9 +35,6 @@ export default function Options(): JSX.Element {
   });
 
   return (
-    <head>
-      <script async src="https://arc.io/widget.min.js#AqVHkajc"></script>
-    </head>
     <main>
       <h1 class="text-2xl text-center py-10">Options</h1>
       <section class="grid grid-cols-2 gap-5 w-full sm:px-16 md:px-20 lg:px-32">

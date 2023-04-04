@@ -22,9 +22,6 @@ export default function Index(): JSX.Element {
   });
 
   return (
-    <head>
-      <script async src="https://arc.io/widget.min.js#AqVHkajc"></script>
-    </head>
     <main>
       <section class="w-full h-[calc(100vh-64px)] flex flex-col gap-10 items-center justify-center px-8 sm:px-16 md:px-20 lg:px-32">
         <img src={banner} alt="Radon Games" />

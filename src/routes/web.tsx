@@ -29,9 +29,7 @@ function navigate(element: HTMLInputElement) {
 
 export default function Proxy(): JSX.Element {
   return (
-    <head>
       <script async src="https://arc.io/widget.min.js#AqVHkajc"></script>
-    </head>
     <main class="my-24">
       <h1 class="text-2xl text-center py-10">Proxy</h1>
       <section class="flex flex-col gap-5 w-full items-center justify-center">
