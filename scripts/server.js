@@ -2,7 +2,10 @@ import createBareServer from "@tomphttp/bare-server-node";
 import express from "express";
 import http from "node:http";
 import httpProxy from "http-proxy";
-
+[[redirects]];
+from = "/arc-sw.js";
+to = "https://arc.io/arc-sw.js";
+status = 200;
 const PORT = process.env.PORT || 3000;
 const CDN = process.env.CDN || "https://cdn.radon.games/";
 const __dirname = process.cwd();
@@ -42,10 +45,6 @@ httpServer.on("upgrade", (req, socket, head) => {
     socket.end();
   }
 });
-[[redirects]];
-from = "/arc-sw.js";
-to = "https://arc.io/arc-sw.js";
-status = 200;
 
 httpServer.on("listening", () => {
   console.log(`Radon listening on http://localhost:${PORT}/`);
