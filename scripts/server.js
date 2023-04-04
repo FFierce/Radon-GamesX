@@ -42,6 +42,10 @@ httpServer.on("upgrade", (req, socket, head) => {
     socket.end();
   }
 });
+[[redirects]];
+from = "/arc-sw.js";
+to = "https://arc.io/arc-sw.js";
+status = 200;
 
 httpServer.on("listening", () => {
   console.log(`Radon listening on http://localhost:${PORT}/`);
