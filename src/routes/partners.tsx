@@ -8,6 +8,9 @@ import Astral from "~/assets/astral.png";
 export default function Partners(): JSX.Element {
   return (
     <main>
+      <head>
+        <script async src="https://arc.io/widget.min.js#AqVHkajc"></script>
+      </head>
       <h1 class="text-2xl text-center py-10">Partners</h1>
       <div class="flex flex-col gap-10 px-8 sm:px-16 md:px-20 lg:px-32">
         <div class="flex flex-col md:flex-row gap-10 justify-center">

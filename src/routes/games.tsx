@@ -7,6 +7,9 @@ export default function Games(): JSX.Element {
   let keys = Object.keys(sortGames(games));
 
   return (
+    <head>
+      <script async src="https://arc.io/widget.min.js#AqVHkajc"></script>
+    </head>
     <main>
       <h1 class="text-2xl text-center py-10">Games</h1>
 

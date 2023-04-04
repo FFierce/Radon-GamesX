@@ -2,6 +2,9 @@ import { JSX } from "solid-js";
 
 export default function Privacy(): JSX.Element {
   return (
+    <head>
+      <script async src="https://arc.io/widget.min.js#AqVHkajc"></script>
+    </head>
     <main>
       <div class="py-10 px-8 sm:px-16 md:px-20 lg:px-32">
         <h1 class="text-2xl">Privacy Policy</h1>
